@@ -10,7 +10,7 @@ export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
   React.useEffect(() => {
     AOS.init({
       duration: 800,
-      once: false,
+      once: true,
     })
   }, [])
 

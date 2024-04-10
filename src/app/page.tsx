@@ -28,17 +28,16 @@ export default function Home() {
         <h1 className="text-4xl font-bold">About me</h1>
 
         <p className="w-full text-justify lg:w-[60%]">
-          As you probably already know, my name is Leon. I am 21 years old and live in Hessen (Germany). I&apos;m
-          studying Medieninformatik in the 4th semester at the Technische Hochschule Mittelhessen. I&apos;ve been
-          teaching myself programming for about 4-5 years and I&apos;d say it&apos;s going pretty well so far. <br />{' '}
-          <br /> My journey started in 2018 with FiveM. FiveM is a multiplayer platform for GTA 5 where you can create
-          your own servers for the game. However, this requires programming skills. The main programming language there
-          is Lua. In the beginning, I only programmed simple things, such as teleporting from point A to point B. Later,
-          I programmed more and more things. Later, I got more and more involved with the subject and came across
-          JavaScript and TypeScript through UI development. This is where I started to make simple interactions possible
-          with the help of JQuery. After a short time, I got involved with frontend frameworks and learned to love
-          React. <br />
-          <br /> When it came to a real backend for the first time, I first looked at Express. Relatively quickly,
+          As you may already know, my name is Leon. I am 21 years old and live in Hessen (Germany). I&apos;m studying
+          Medieninformatik in the 4th semester at the Technische Hochschule Mittelhessen. I&apos;ve been teaching myself
+          programming for about 4-5 years and I&apos;d say it&apos;s going pretty well so far. <br /> <br /> My journey
+          started in 2018 with FiveM. FiveM is a multiplayer platform for GTA 5 where you can create your own servers
+          for the game. However, this requires programming skills. The main programming language there is Lua. In the
+          beginning, I only programmed simple things, such as teleporting from point A to point B. Later, I got more and
+          more involved with the subject and came across JavaScript and TypeScript through UI development. This is where
+          I started to make simple UIs with the help of JQuery. After a short time, I got involved with frontend
+          frameworks and learned to love React. <br />
+          <br /> When it came to a real backend for the first time, I first looked at Express.js. Relatively quickly,
           however, my eye fell on Next.js, which I personally liked much better than Express. Then one thing led to
           another and so I also learned how to use shadcn and TailwindCSS. <br /> <br />
           Through my studies I was also introduced to Java and PHP for the first time, but I don&apos;t particularly

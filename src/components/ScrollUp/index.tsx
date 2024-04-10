@@ -26,6 +26,7 @@ export default function ScrollUp() {
           key="scroll-up-btn"
           initial={{ x: 200 }}
           animate={{ x: 0 }}
+          exit={{ x: 200 }}
           className="fixed bottom-8 right-8 z-[99] cursor-pointer rounded-full border bg-white/40 p-4 dark:bg-black/50"
           whileHover={{ scale: 1.2 }}
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}

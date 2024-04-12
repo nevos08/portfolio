@@ -3,7 +3,6 @@ import AvatarSrc from '@/images/avatar.webp'
 import { FaArrowDown, FaEnvelope } from 'react-icons/fa6'
 import { Button } from '@/components/ui/button'
 import HeroText from '@/components/HeroText'
-import { Progress } from '@radix-ui/react-progress'
 import Skills from '@/components/Skills'
 
 export default function Home() {
@@ -58,9 +57,9 @@ export default function Home() {
         <div className="mb-8 mt-4 border-t"></div>
       </div>
 
-      <div className="container mx-auto pb-8" data-aos="fade-up">
+      <div className="container mx-auto pb-8" data-aos="fade-up" id="skills">
         <h1 className="text-5xl font-bold">Skills</h1>
-        <p className="mt-1 text-neutral-300">A simple overview showing my skills.</p>
+        <p className="mt-1 dark:text-neutral-300">A simple overview showing my skills.</p>
 
         <Skills />
       </div>

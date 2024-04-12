@@ -22,7 +22,7 @@ export default function HeroText() {
         data-aos-delay="2000"
       >
         Welcome to my homepage. This page was entirely built by me and should give you a first impression of my skills.
-        The technology behind the site is Next.js with TailwindCSS and shadcn-ui.
+        The technology used for this site is Next.js with TailwindCSS and shadcn-ui.
       </p>
     </div>
   )

@@ -4,6 +4,7 @@ import { Button } from '../ui/button'
 import { FaBars, FaDiscord, FaGithub } from 'react-icons/fa6'
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle, DrawerTrigger } from '../ui/drawer'
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '../ui/tooltip'
+import ThemeToggle from '../ThemeToogle'
 
 const navigationLinks = [
   { label: 'Home', href: '/' },
@@ -12,15 +13,32 @@ const navigationLinks = [
 
 export default function Navigation() {
   return (
-    <div className="absolute z-[999] w-screen">
+    <div className="fixed z-[999] w-screen">
       <div className="container mx-auto">
         <Animator>
           <header className="flex w-full items-center justify-end py-8 lg:justify-center">
             <nav className="hidden gap-4 rounded-lg border bg-background/50 px-8 py-2 backdrop-blur-sm md:flex">
-              <Button asChild variant="link" className="text-lg text-neutral-300 hover:text-white">
+              <Button
+                asChild
+                variant="link"
+                className="text-lg text-foreground dark:text-neutral-300 dark:hover:text-white"
+              >
                 <Link href="/">Home</Link>
               </Button>
-              <Button asChild variant="link" className="text-lg text-neutral-300 hover:text-white">
+
+              <Button
+                asChild
+                variant="link"
+                className="text-lg text-foreground dark:text-neutral-300 dark:hover:text-white"
+              >
+                <Link href="/#skills">Skills</Link>
+              </Button>
+
+              <Button
+                asChild
+                variant="link"
+                className="text-lg text-foreground dark:text-neutral-300 dark:hover:text-white"
+              >
                 <Link href="/projects">Projekte</Link>
               </Button>
 
@@ -49,6 +67,8 @@ export default function Navigation() {
                   <TooltipContent side="bottom">Discord</TooltipContent>
                 </Tooltip>
               </TooltipProvider>
+
+              <ThemeToggle />
             </nav>
 
             <Drawer>

@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import AvatarSrc from '@/images/avatar.webp'
+import MeSrc from '@/images/me.jpg'
 import { FaArrowDown, FaEnvelope } from 'react-icons/fa6'
 import { Button } from '@/components/ui/button'
 import HeroText from '@/components/HeroText'
@@ -16,7 +17,9 @@ export default function Home() {
               className="flex !w-full flex-col items-center gap-8 px-0 lg:flex-row lg:gap-16 lg:px-16"
               data-aos="fade-right"
             >
-              <Image src={AvatarSrc} alt="Avatar" width={220} />
+              <div className="h-[300px] w-[300px] rounded-full shrink-0 overflow-hidden">
+                <Image src={MeSrc} alt="Avatar" className="h-full w-full object-cover object-top" />
+              </div>
               <HeroText />
             </div>
           </div>

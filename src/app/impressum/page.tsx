@@ -14,8 +14,8 @@ export default function Impressum() {
 
       <h3 className="my-2 mt-4 text-xl font-bold">Kontakt</h3>
       <p>
-        Telefon: 015155802843
-        <br />
+        {/* Telefon: 015155802843 */}
+        {/* <br /> */}
         E-Mail: leonossowski08@gmail.com
       </p>
     </div>

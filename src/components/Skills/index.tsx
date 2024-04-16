@@ -28,11 +28,6 @@ export default function Skills() {
 
       <div className="my-4 flex items-center gap-4">
         <p className="basis-1/3 font-[600] md:basis-1/5">Dart</p>
-        <Progress value={20} />
-      </div>
-
-      <div className="my-4 flex items-center gap-4">
-        <p className="basis-1/3 font-[600] md:basis-1/5">Python</p>
         <Progress value={10} />
       </div>
 

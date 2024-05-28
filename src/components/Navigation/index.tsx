@@ -16,7 +16,7 @@ export default function Navigation() {
     <div className="fixed z-[999] w-screen">
       <div className="container mx-auto">
         <Animator>
-          <header className="flex w-full items-center justify-end py-8 lg:justify-center">
+          <header className="flex w-full items-center justify-end py-8 md:justify-center">
             <nav className="hidden gap-4 rounded-lg border bg-background/50 px-8 py-2 backdrop-blur-sm md:flex">
               <Button
                 asChild

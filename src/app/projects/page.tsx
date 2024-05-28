@@ -16,11 +16,11 @@ export default function Projects() {
   return (
     <div className="min-h-screen bg-hero2 bg-cover bg-center bg-no-repeat">
       <div className="min-h-screen w-full bg-background/30 backdrop-blur-[3px] dark:bg-background/50">
-        <div className="container mx-auto pb-8 pt-32" data-aos="fade-up">
+        <div className="container mx-auto pb-8 pt-16 md:pt-32" data-aos="fade-up">
           <h1 className="text-5xl font-bold text-white">Projects</h1>
           <p className="mt-2 text-lg text-white dark:text-neutral-300">A list of projects I worked on so far.</p>
 
-          <div className="mt-2 grid auto-rows-[180px] grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4">
+          <div className="mt-2 grid auto-rows-[180px] grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {PROJECTS.map((project, index) => (
               <Project
                 key={index}

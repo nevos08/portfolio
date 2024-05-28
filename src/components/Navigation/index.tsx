@@ -80,26 +80,27 @@ export default function Navigation() {
               <DrawerContent className="z-[99]">
                 <DrawerHeader>
                   <DrawerTitle>Navigation</DrawerTitle>
-                  {navigationLinks.map((x) => (
-                    <Button key={x.href} asChild variant="link" className=" text-white">
-                      <Link href={x.href}>{x.label}</Link>
-                    </Button>
-                  ))}
-
-                  <div className="flex items-center justify-center gap-4">
-                    <Button asChild size="icon" variant="ghost">
-                      <a href="https://github.com/nevos08">
-                        <FaGithub className="text-3xl" />
-                      </a>
-                    </Button>
-
-                    <Button asChild size="icon" variant="ghost">
-                      <a href="#">
-                        <FaDiscord className="text-3xl" />
-                      </a>
-                    </Button>
-                  </div>
                 </DrawerHeader>
+                {navigationLinks.map((x) => (
+                  <Button key={x.href} asChild variant="link" className="text-foreground">
+                    <Link href={x.href}>{x.label}</Link>
+                  </Button>
+                ))}
+
+                <div className="flex items-center justify-center gap-4 pb-4">
+                  <Button asChild size="icon" variant="ghost">
+                    <a href="https://github.com/nevos08">
+                      <FaGithub className="text-3xl" />
+                    </a>
+                  </Button>
+
+                  <Button asChild size="icon" variant="ghost">
+                    <a href="#">
+                      <FaDiscord className="text-3xl" />
+                    </a>
+                  </Button>
+                  <ThemeToggle />
+                </div>
               </DrawerContent>
             </Drawer>
           </header>

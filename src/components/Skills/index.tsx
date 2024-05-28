@@ -34,12 +34,12 @@ export default function Skills() {
       <h3 className="mt-8 text-2xl font-bold">JS / TS Frameworks</h3>
       <div className="my-4 flex items-center gap-4">
         <p className="basis-1/3 font-[600] md:basis-1/5">React</p>
-        <Progress value={75} />
+        <Progress value={85} />
       </div>
 
       <div className="my-4 flex items-center gap-4">
         <p className="basis-1/3 font-[600] md:basis-1/5">Next.js</p>
-        <Progress value={60} />
+        <Progress value={70} />
       </div>
 
       <div className="my-4 flex items-center gap-4">
@@ -52,16 +52,16 @@ export default function Skills() {
         <Progress value={30} />
       </div>
 
-      <div className="my-4 flex items-center gap-4">
+      {/* <div className="my-4 flex items-center gap-4">
         <p className="basis-1/3 font-[600] md:basis-1/5">Flutter</p>
         <Progress value={5} />
-      </div>
+      </div> */}
 
       <h3 className="mt-8 text-2xl font-bold">UI Libraries</h3>
 
       <div className="my-4 flex items-center gap-4">
-        <p className="basis-1/3 font-[600] md:basis-1/5">Shadcn-UI</p>
-        <Progress value={90} />
+        <p className="basis-1/3 font-[600] md:basis-1/5">shadcn/ui</p>
+        <Progress value={100} />
       </div>
 
       <div className="my-4 flex items-center gap-4">
@@ -83,7 +83,7 @@ export default function Skills() {
 
       <div className="my-4 flex items-center gap-4">
         <p className="basis-1/3 font-[600] md:basis-1/5">SQL</p>
-        <Progress value={70} />
+        <Progress value={75} />
       </div>
 
       <div className="my-4 flex items-center gap-4">
@@ -101,18 +101,6 @@ export default function Skills() {
       <div className="my-4 flex items-center gap-4">
         <p className="basis-1/3 font-[600] md:basis-1/5">Figma</p>
         <Progress value={70} />
-      </div>
-
-      <h3 className="mt-8 text-2xl font-bold">Platforms</h3>
-
-      <div className="my-4 flex items-center gap-4">
-        <p className="basis-1/3 font-[600] md:basis-1/5">FiveM</p>
-        <Progress value={100} />
-      </div>
-
-      <div className="my-4 flex items-center gap-4">
-        <p className="basis-1/3 font-[600] md:basis-1/5">alt:V</p>
-        <Progress value={75} />
       </div>
     </>
   )
